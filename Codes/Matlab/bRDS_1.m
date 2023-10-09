@@ -48,19 +48,3 @@ title('Anzahl der Hypothekendarlehen pro Monat in den USA','FontSize',iFontSize,
 ylabel('Anzahl in 1000','FontSize',iFontSize)
 xlabel('Zeit','FontSize',iFontSize)
 
-
-%%
-% 
-% 
-% states = shaperead('usastatelo');
-% 
-% for k = 1:numel(states)
-%       states(k).AirTraffic = k;
-% end
-% 
-% surfaceColors = makesymbolspec('Polygon', {'AirTraffic', [min([states.AirTraffic]) max([states.AirTraffic])], 'FaceColor', autumn(numel(states)) });
-% 
-% figure(2)
-% 
-% A = geoshow(states,'DisplayType', 'Polygon', 'SymbolSpec', surfaceColors);
-
